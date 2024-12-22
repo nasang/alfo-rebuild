@@ -175,10 +175,11 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 1rem;
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 1rem 1rem 1rem 1rem;
   }
 }
 
@@ -297,7 +298,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: #005678;
+    color: #05d9e8;
 
     &:hover {
       color: var(--global-hover-color);
@@ -560,7 +561,7 @@ footer.sticky-bottom {
     font-size: 1rem;
     text-align: right;
     margin-right: 20em;
-    color: #05d9e8;
+    color: #005678;
   }
 }
 
