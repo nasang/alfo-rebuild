@@ -4,16 +4,9 @@
 
 title: ALFO 赛博家园 # the website title (if blank, full name will be used instead)
 first_name: AL
-middle_name:
 last_name: FO
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text:
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+description:
 lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://nasang.github.io # the base hostname & protocol for your site
 baseurl: /alfo-rebuild # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -266,7 +259,7 @@ third_party_libraries:
     version: "7.8.5"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Trirong"
   highlightjs:
     integrity:
       css:
