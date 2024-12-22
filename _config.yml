@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: ALFO 赛博家园 # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: AL
 last_name: FO
 description:
@@ -37,7 +37,7 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
 
 # Dimensions
 max_width: 930px
@@ -72,6 +72,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
+blog_name: ALFO # blog_name will be displayed in your blog page
+blog_description: 赛博家园
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -196,7 +198,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: ["游记"] 
+display_categories: ["忆旧游", "掷金钱", "苏幕遮", "寿南山"] 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
