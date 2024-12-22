@@ -3,7 +3,7 @@ layout: post
 title: 山城重庆 - 重游
 date: 2023-03-28 17:20:00
 description: 让人走到脚痛的8D城市
-categories: 游记
+categories: 忆旧游
 languages: ["zh"]
 thumbnail: assets/img/travel/chongqing/qiansimen_saibo.jpg
 toc:

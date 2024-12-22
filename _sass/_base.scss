@@ -297,7 +297,7 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: var(--global-theme-color);
+    color: #005678;
 
     &:hover {
       color: var(--global-hover-color);
@@ -553,11 +553,14 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1rem;
+    text-align: right;
+    margin-right: 20em;
+    color: #05d9e8;
   }
 }
 
@@ -576,6 +579,11 @@ footer.sticky-bottom {
       display: inline-block;
       padding: 1rem 0.5rem;
       color: var(--global-text-color-light);
+    }
+
+    a {
+      color: #bfeff9;
+      font-size: 1rem;
     }
   }
 }
