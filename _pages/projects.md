@@ -6,7 +6,7 @@ description:
 nav: true
 nav_order: 3
 horizontal: false
-display_categories: [2024]
+display_categories: [电影,剧集]
 ---
 
 <!-- pages/projects.md -->
