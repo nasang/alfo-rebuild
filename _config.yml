@@ -37,7 +37,7 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false
+navbar_fixed: true
 
 # Dimensions
 max_width: 930px
