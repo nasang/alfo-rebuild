@@ -198,7 +198,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: ["忆旧游", "掷金钱", "好时光", "寿南山"] 
+display_categories: ["忆旧游", "掷金钱", "好时光", "叨叨令", "寿南山"] 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
