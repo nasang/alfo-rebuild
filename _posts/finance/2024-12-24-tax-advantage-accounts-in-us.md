@@ -22,21 +22,22 @@ toc:
 
 401(k)以创建它的税法部分命名，是一项雇主资助的退休储蓄计划，具有特殊的税收优惠。具体的税收优惠取决于所缴纳的401(k)类型。
 
-### Pre-tax
+### 子账户类型
+#### Pre-tax
 - **存**：当年存入的钱可以从“可税收入”（taxable income）中减去
 - **取**：本金和收益都将计入该年普通类型 taxable income
-- **罚**：不<u>符合条件</u>*的取钱操作将有额外 10% 的“早取”（early distribution）税
+- **罚**：不<u>符合条件</u>*的取钱操作将有额外10%的“早取”（early distribution）税
 
 
-### Roth
+#### Roth
 - **存**：无税收优惠
 - **取**：本金无税；<u>符合条件</u>*取出的收益无税，否则计入该年普通类型 taxable income
-- **罚**：不<u>符合条件</u>*的取钱操作将把本金和收益按照等比例取出，其中本金无税，收益有额外 10% 的 early distribution 税
+- **罚**：不<u>符合条件</u>*的取钱操作将把本金和收益按照等比例取出，其中本金无税，收益有额外10%的 early distribution 税
 
-### After-tax
+#### After-tax
 - **存**：无税收优惠
 - **取**：本金无税；收益计入该年普通类型 taxable income
-- **罚**：不<u>符合条件</u>*的取钱操作将把本金和收益按照等比例取出，其中本金无税，收益有额外 10% 的 early distribution 税
+- **罚**：不<u>符合条件</u>*的取钱操作将把本金和收益按照等比例取出，其中本金无税，收益有额外10%的 early distribution 税
 
 *符合条件的解释：取钱时持有人满足59.5岁，如果是 Roth 账户还需满足账户已持有至少5年。[这些情况](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-exceptions-to-tax-on-early-distributions)可以免除额外 10% early distribution 税。
 
@@ -79,9 +80,41 @@ toc:
 
 若 After-tax 401(k) 中存在收益，则收益部分在转化当年需要交税。
 
+### 取钱要求
+- Elective Deferral 的部分在 Sec. 401(k)(2)(B)(i)统一限制了取出条件（没达到条件，即使愿意付罚金也无法取出）：
+  - 员工离职/去世/残疾，或
+  - 员工年龄达到59.5岁，或
+  - 其他一些困难条件等
+- 59.5岁是最常见的qualified distribution条件，不达该年龄从401(k)中取钱，计算收入税的部分会有10%的罚金。
+- RMD（Required Minimal Distribution）：在持有人年龄超过72岁时，须按照 IRS 提供的预期寿命表格计算每年最低取出的比例，少取部分有50%的罚金。
+
 ### 推荐阅读
 #### Fidelity
 - [What's a 401(k)?](https://www.fidelity.com/learning-center/smart-money/what-is-a-401k)
 - [Traditional or Roth account? 2 tips to help you choose ](https://www.fidelity.com/viewpoints/retirement/spender-or-saver)
 - [What to do with after-tax 401(k) contributions](https://www.fidelity.com/viewpoints/retirement/401k-contributions)
 - [What is a "mega backdoor Roth"?](https://www.fidelity.com/learning-center/personal-finance/mega-backdoor-roth)
+
+## IRA
+IRA 全称 Individual Retirement Account（个人退休账户），是与 401(k) 类似的税收优惠投资账户，无需雇主提供。其类型主要分为 Traditional 和 Roth，对比如下：
+
+|| Traditional| Roth |
+|-----------| :----------- | :------------- |
+|谁可以存？| 本人或配偶（在联合报税的前提下）有可税收入。| 本人或配偶（在联合报税的前提下）有可税收入，且 MAGI（Modified Adjusted Gross Income）低于指定要求。|
+|存入本金否减税？| [满足要求](https://www.irs.gov/retirement-plans/ira-deduction-limits)可减   |    否    |
+|取钱顺序|本金和收益按比例取出|先取本金，再取收益|
+|取钱如何交税？|任何存入时免税的本金和收益都要交税。|本金随时无税取走，收益在[满足条件](https://www.irs.gov/publications/p590b#en_US_2023_publink100089543)的情况下无税。|
+|早取税|若不满足59.5岁，需付额外10%早取税（除非满足[这些情况](https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-exceptions-to-tax-on-early-distributions)）|同左|
+|RMD|同401(k)|无|
+
+<p></p>
+
+### 缴纳上限
+
+2024年和2025年均为 $7,000。
+
+### Backdoor Roth
+因为 Roth IRA 有收入限制，所以收入超出范围的人无法直接存 Roth IRA，但可以通过先存 Traditional IRA 再将其转入 Roth IRA，即 Backdoor Roth（Roth后门）。
+
+### Roth IRA vs Roth 401(k)
+Roth IRA 具有本金随时可取，且取出顺序为先本金后收益的优势，因此将 Roth 401(k) 转入 Roth IRA 不失为一种选择。这个操作是免税的。
