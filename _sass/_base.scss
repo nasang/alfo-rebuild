@@ -179,6 +179,15 @@ ul.task-list input[type="checkbox"] {
     font-size: 1rem;
   }
 
+  .card-subtitle {
+    font-size: 0;
+    margin-bottom: 1rem;
+    span {
+      font-size: 0.8rem;
+      color:#efcc00;
+    }
+  }
+
   .card-body {
     padding: 1rem 1rem 1rem 1rem;
   }
