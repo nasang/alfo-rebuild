@@ -1,7 +1,7 @@
 ---
 layout: page
 title:
-permalink: /sumuzhe/2023
+permalink: /sumuzhe/2023/
 description: 
 horizontal: true
 display_categories: ["电影", "剧集"]
