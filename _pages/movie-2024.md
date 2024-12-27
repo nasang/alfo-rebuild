@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: 看看 2024
 permalink: /sumuzhe/2024/
 description: 
 horizontal: true

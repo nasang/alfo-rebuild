@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: 看看 2023
 permalink: /sumuzhe/2023/
 description: 
 horizontal: true
