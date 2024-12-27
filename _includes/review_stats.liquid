@@ -1,0 +1,8 @@
+{% assign projects = include.projects %}
+{% assign cats = include.cats %}
+<div>共 {{ projects.size }} 部</div>
+{% assign categorized_projects = projects | group_by: "category" %}
+{% for cat in cats %}
+  {% assign current_cat = categorized_projects | where: 'name', cat | first %}
+  <div><li>{{ current_cat.name }}：{{ current_cat.items.size }} 部</li></div>
+{% endfor %}

@@ -2,21 +2,26 @@
 layout: page
 title: 看看
 permalink: /sumuzhe/
-description: 
+description:
 nav: true
 nav_order: 3
-horizontal: true
-display_categories: # ["电影", "剧集"]
+display_categories: ["电影", "剧集"]
 ---
+
+{% assign projects_by_year = site.projects | group_by_exp: "project", "project.date | date: '%Y'" %}
+{% assign sorted_year = projects_by_year | sort: "name" | reverse %}
 
 <!-- pages/projects.md -->
 <div class="projects">
-  <a href="{{ '2024' | prepend: '/sumuzhe/' | prepend: site.baseurl}}">
+  {% for year in sorted_year %}
+  <div class="year">
+    <a href="{{ year.name | prepend: '/sumuzhe/' | prepend: site.baseurl}}">
     <i class="fa-solid fa-calendar fa-sm"></i>
-    2024
-  </a> &nbsp; &middot; &nbsp;
-  <a href="{{ '2023' | prepend: '/sumuzhe/' | prepend: site.baseurl}}">
-    <i class="fa-solid fa-calendar fa-sm"></i>
-    2023
-  </a>
+      {{ year.name }}
+    </a>
+  </div>
+  <div class="review-stats">
+  {% include review_stats.liquid projects=year.items cats=page.display_categories %}
+  </div>
+  {% endfor %}
 </div>
