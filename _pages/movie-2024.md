@@ -19,13 +19,13 @@ toc:
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "date" | reverse %}
-
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
     {% assign projects_by_year = sorted_projects | group_by_exp: "project", "project.date | date: '%Y'" %}
     {% for year in projects_by_year %}
     {% if year.name == "2024" %}
+    <p>共 {{ year.items.size }} 部</p>
     <div class="row row-cols-1 row-cols-md-1">
       {% for project in year.items %}
         {% include projects_horizontal.liquid %}
