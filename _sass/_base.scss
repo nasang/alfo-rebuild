@@ -714,13 +714,13 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: #bfeff9;
+    color: var(--global-text-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
