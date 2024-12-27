@@ -11,7 +11,7 @@
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
-            <h4 class="card-title">{{ project.title }}</h4>
+            <h3 class="card-title">{{ project.title }}</h3>
             <div class="card-subtitle">
             {% if project.star %}
               {% for i in (1..project.star) %}
