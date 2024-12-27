@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 书影音
+title: 看看
 permalink: /sumuzhe/
 description: 
 nav: true
