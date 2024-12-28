@@ -10,16 +10,28 @@
     
     <!-- Generate cards for each project -->
     <div class="container">
-      {% for year in projects_by_year %}
-        {% if year.name == include.year %}
-        <p>共 {{ year.items.size }} 部</p>
-        <div class="row row-cols-1 row-cols-md-1">
+      {% if include.legacy %}
+        {% for year in projects_by_year %}
+          {% if year.name <= "2019" %}
+          <div class="row row-cols-1 row-cols-md-1">
           {% for project in year.items %}
             {% include projects_horizontal.liquid %}
           {% endfor %}
-        </div>
-        {% endif %}
-      {% endfor %}
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% for year in projects_by_year %}
+          {% if year.name == include.year %}
+          <p>共 {{ year.items.size }} 部</p>
+          <div class="row row-cols-1 row-cols-md-1">
+            {% for project in year.items %}
+              {% include projects_horizontal.liquid %}
+            {% endfor %}
+          </div>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div>
   {% endfor %}
 </div>

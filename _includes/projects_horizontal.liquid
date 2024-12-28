@@ -13,10 +13,15 @@
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <div class="card-subtitle">
-            {% if project.star %}
-              {% for i in (1..project.star) %}
-                <span>★</span>
-              {% endfor %}
+            {% for i in (1..5) %}
+              {% if i <= project.star %}
+                <span class="full">★</span>
+              {% else %}
+                <span class="empty">★</span>
+              {% endif %}
+            {% endfor %}
+            {% if project.star == 6 %}
+              <span class="overflow">❤</span>
             {% endif %}
             </div>
             <p class="card-text">{{ project.description }}</p>
