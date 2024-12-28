@@ -5,11 +5,11 @@
     <div class="card h-100 {% if project.long_content %}hoverable{% endif %}">
       <div class="row no-gutters">
         {% if project.img %}
-          <div class="col-md-6">
+          <div class="col-md-5">
             {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" zoomable=true %}
           </div>
         {% endif %}
-        <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
+        <div class="{% if project.img %}col-md-7{% else %}col-md-12{% endif %}">
           <div class="card-body">
             <h3 class="card-title">{{ project.title }}</h3>
             <div class="card-subtitle">
