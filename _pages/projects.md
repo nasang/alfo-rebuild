@@ -5,7 +5,7 @@ permalink: /sumuzhe/
 description:
 nav: true
 nav_order: 3
-display_categories: ["电影", "剧集"]
+display_categories: ["电影", "剧集", "纪录片"]
 ---
 
 {% assign projects_by_year = site.projects | group_by_exp: "project", "project.date | date: '%Y'" %}
