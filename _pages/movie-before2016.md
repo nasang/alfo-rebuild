@@ -1,8 +1,8 @@
 ---
 layout: page
 title: 看看 更久以前
-permalink: /sumuzhe/before2020/
-display_categories: ["电影", "剧集", "纪录片"]
+permalink: /sumuzhe/before2016/
+display_categories: ["电影", "剧集"]
 toc:
   sidebar: right
 ---

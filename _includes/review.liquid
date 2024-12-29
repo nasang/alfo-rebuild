@@ -12,7 +12,7 @@
     <div class="container">
       {% if include.legacy %}
         {% for year in projects_by_year %}
-          {% if year.name <= "2019" %}
+          {% if year.name < "2016" %}
           <div class="row row-cols-1 row-cols-md-1">
           {% for project in year.items %}
             {% include projects_horizontal.liquid %}
@@ -22,8 +22,7 @@
         {% endfor %}
       {% else %}
         {% for year in projects_by_year %}
-          {% if year.name == include.year %}
-          <p>共 {{ year.items.size }} 部</p>
+          {% if include.year contains year.name %}
           <div class="row row-cols-1 row-cols-md-1">
             {% for project in year.items %}
               {% include projects_horizontal.liquid %}
