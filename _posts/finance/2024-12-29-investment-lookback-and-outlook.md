@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 2024年投资回顾与展望
-date: 2024-12-29 15:12:00
+date: 2024-12-29 18:12:00
 description: 
 categories: 掷金钱
 languages: ["zh"]
-thumbnail:
+thumbnail: assets/img/finance/investment/cover.jpg
 toc:
   sidebar: right
 ---
@@ -40,4 +40,4 @@ toc:
 - 公司的 match 部分应为 $1,500
 - 自投部分为 $8,550 - $1,500 = $7,050
   - 若由公司从工资中代扣，每个 paycheck 为 $271.15
-  - 若自己年初拉满，
+  - 若自己年初拉满，则损失约 $7,050 * 1.6% = $112.8 medicare tax。（详见<a href="{{ '掷金钱/2024/what-is-fica/#medicare' | prepend: '/blog/' | prepend: site.baseurl}}">美国 FICA 税详解</a>）

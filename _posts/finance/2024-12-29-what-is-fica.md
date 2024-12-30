@@ -6,7 +6,7 @@ description:
 tags: 税务
 categories: 掷金钱
 languages: ["zh"]
-thumbnail:
+thumbnail: assets/img/finance/fica/fica.webp
 pretty_table: true
 toc:
   sidebar: left

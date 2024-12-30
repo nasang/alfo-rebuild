@@ -39,7 +39,7 @@ pagination:
         <p>&bull;</p>
       {% endif %}
       {% for category in site.display_categories %}
-        <li>
+        <li class="nav-category {% if page.title == category %}active{% endif %}">
           <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
         </li>
       {% endfor %}

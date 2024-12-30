@@ -5,7 +5,7 @@ date: 2024-12-24 11:26:00
 description: 
 categories: 掷金钱
 languages: ["zh"]
-thumbnail:
+thumbnail: assets/img/finance/tax-advantaged-accounts/tax-advantaged-accounts.jpg
 pretty_table: true
 toc:
   sidebar: left
