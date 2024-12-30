@@ -7,7 +7,7 @@ categories: 掷金钱
 languages: ["zh"]
 thumbnail: assets/img/finance/investment/cover.jpg
 toc:
-  sidebar: right
+  sidebar: left
 ---
 
 ## 前言
