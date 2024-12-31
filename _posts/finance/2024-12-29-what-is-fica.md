@@ -22,13 +22,6 @@ FICA 全称为 Federal Insurance Contributions Act（联邦保险供款法案）
 - 注：若税务身份为 NRA，则免除 FICA 税。
 
 ## 税率
-### 总结
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/finance/fica/tax_rate.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
 ### Social Security
 公司和员工各缴纳 6.2%。但是，应缴税的工资收入是有上限的。
 - 2025年：$176,100，即最多缴纳 $10,918.2
@@ -47,6 +40,50 @@ FICA 全称为 Federal Insurance Contributions Act（联邦保险供款法案）
         {% include figure.liquid path="assets/img/finance/fica/medicare_tax_rate.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+### 总结
+<table id="table" data-toggle="table">
+  <thead>
+    <tr>
+      <th data-field="id"></th>
+      <th data-field="employee">员工支付</th>
+      <th data-field="employer">雇主支付</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>社会保障税（又称 OASDI）</td>
+        <td>
+            6.2% <br><br>
+            <i>仅限 2024 年的前 168,600 美元和 2025 年的前 176,100 美元。</i>
+        </td>
+        <td>
+            6.2% <br><br>
+            <i>仅限 2024 年的前 168,600 美元和 2025 年的前 176,100 美元。</i>
+        </td>
+    </tr>
+    <tr>
+        <td>医疗保险税</td>
+          <td>1.45%</td>
+          <td>1.45%</td>
+    </tr>
+    <tr>
+        <td>全部</td>
+          <td>7.65%</td>
+          <td>7.65%</td>
+    </tr>
+    <tr>
+        <td>额外的医疗保险税</td>
+        <td>
+            0.9％ <br><br>
+            <i>仅限单身申报者收入超过 200,000 美元的部分；联合申报者收入超过 250,000 美元的部分；已婚单独申报者收入超过 125,000 美元的部分。</i>
+        </td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+
+<p></p>
 
 ### 旁注
 1. 税收优惠账户中，员工自己存入 pre-tax 401(k) 的本金不能免去 FICA（[IRS 说明](https://www.irs.gov/retirement-plans/retirement-plan-faqs-regarding-contributions-are-retirement-plan-contributions-subject-to-withholding-for-fica-medicare-or-federal-income-tax)）；通过 paycheck 存入 HSA 的本金可以免 FICA，但自己直接存的不能。
