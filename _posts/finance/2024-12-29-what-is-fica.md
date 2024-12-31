@@ -33,16 +33,10 @@ FICA 全称为 Federal Insurance Contributions Act（联邦保险供款法案）
 - $125,000 for married filing separately; and
 - $200,000 for all other taxpayers.
 
-假设配偶联合报税，且总年收入为 x（x > 25万），则**员工**缴纳医保的金额为 
+假设共同报税，且总年收入为 x（x > 25万），则**员工**缴纳医保的金额为 
 - $250,000 * 1.45% + (x - $250,000) * (1.45% + 0.9%) = x * 2.35% - $2,250
 
 即等效税率 y = 2.35% - 2,250 / x。例如，当 x 为 $300,000，等效税率是 1.6%。
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/finance/fica/medicare_tax_rate.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
 
 ### 总结
 <table id="table" data-toggle="table">
