@@ -5,7 +5,7 @@ date: 2024-12-29 18:12:00
 description: 
 categories: 掷金钱
 languages: ["zh"]
-thumbnail: assets/img/finance/investment/cover.jpg
+thumbnail: assets/img/finance/investment_2024/cover.jpg
 toc:
   sidebar: left
 ---
@@ -21,17 +21,18 @@ toc:
 
 
 ## 展望 2025
+按照 [2025 年的联邦税率](https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2025)，以及这个计算表格：
 
-> 2025 年的税率如下：
-> - **标准扣除额**
->   - 单独申报的单身纳税人和已婚人士，标准扣除额 15,000 美元
->   - 联合申报的已婚人士，标准扣除额 30,000 美元
-> - **边际税率**
->   - 超过 250,525 美元（共同申报为 501,050 美元）的，税率为 35%。
->   - 超过 197,300 美元（共同申报为 394,600 美元）的，税率为 32%。
->   - 超过 103,350 美元（共同申报为 206,700 美元）的，税率为 24%。
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/finance/investment_2024/tax_brackets.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+出处：<a href="https://www.nerdwallet.com/article/taxes/federal-income-tax-brackets">NerdWallet</a>
+</div>
 
-假设收入约为 $300,000 且共同报税，等效税率约为 
+假设收入约为 $300,000 且共同报税，等效联邦税率 f = (35,302 + (300,000 - 30,000 - 206,700) * 24%) / 300,000 = 16%
 ### Pre-tax 401(k)
 > The 401(k) contribution limit for 2025 is $23,500 for employee salary deferrals, and $70,000 for the combined employee and employer contributions.
 > -- [source](https://www.fidelity.com/learning-center/smart-money/401k-contribution-limits#:~:text=401(k)%20contribution%20limits%20for%202025,%247%2C500%20in%20catch%2Dup%20contributions.)
