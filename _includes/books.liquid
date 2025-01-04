@@ -1,0 +1,13 @@
+<div class="col-2">
+    <a href="{{ book.url | relative_url }}">
+        <div>
+            {%
+            include figure.liquid
+            loading="eager"
+            path=book.thumbnail
+            alt="project thumbnail"
+            class="card-img-top"
+            %}
+        </div>
+    </a>
+</div>
